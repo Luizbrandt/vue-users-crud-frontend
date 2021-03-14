@@ -85,7 +85,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 </p>
 
 <p align="center">
-  <img src="diagrams/alert_component.png" width="435px" align="center"></img>
+  <img src="diagrams/alert_component_back.png" width="435px" align="center"></img>
 </p>
 
 ### Instalação dos Pacotes:
