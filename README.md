@@ -115,8 +115,12 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   Botão do tipo ícone, é exibido no menu de ações de listagem de usuários. Recebe os dados do usuário como 'prop', fornecendo a função de exclusão do usuário. Conforme recebe a resposta da requisição que invoca, emite eventos ao componente pai, os quais permitem a impressão de mensgagens via 'Alert'.
 </p>
 
-<p align="center">
+<!--<p align="center">
   <img src="diagrams/edit_user_vue_component.png" width="435px" align="center"></img>
+</p>-->
+
+<p align="center">
+  <img src="diagrams/delete_user_vue_component.png" width="435px" align="center"></img>
 </p>
 
 
@@ -130,6 +134,25 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   <img src="diagrams/edit_user_vue_component.png" width="435px" align="center"></img>
 </p>
 
+#### Loading
+
+<p align="justify">
+  Componente de exibição que indica que uma comunicação com API ainda não terminou. É invocado com parâmetro booleano, que indica que a comunicação com API foi chamada. Com completude da ação, sai da tela.
+</p>
+
+<p align="center">
+  <img src="diagrams/loading_vue_component.png" width="435px" align="center"></img>
+</p>
+
+#### Top Bar
+
+<p align="justify">
+  Barra superior principal, utilizada direto no arquivo principal da instância do Vue, 'App.vue'.
+</p>
+
+<p align="center">
+  <img src="diagrams/top_bar_vue_component.png" width="435px" align="center"></img>
+</p>
 
 ### Instalação dos Pacotes:
 Para a instalação dos pacotes, é necessário clonar este repositório em sua máquina. Na pasta raiz do projeto, rode os sequintes comandos:
