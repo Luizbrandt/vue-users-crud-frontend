@@ -88,6 +88,27 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   <img src="diagrams/alert_component_back.png" width="435px" align="center"></img>
 </p>
 
+#### Button
+
+<p align="justify">
+  Botão que redireciona para uma dada página do projeto. Contém os atributos: cor, ícone, texto e página, e todos são passados pela comunicação com o componente pai em que é declarado.
+</p>
+
+<p align="center">
+  <img src="diagrams/button_vue_component.png" width="435px" align="center"></img>
+</p>
+
+
+#### Card Toolbar
+
+<p align="justify">
+  Barra superior dos cards, contendo texto, cor e ícone, ambos passados como 'prop' pelo componente pai em que é declarada.
+</p>
+
+<p align="center">
+  <img src="diagrams/card_toolbar_vue.png" width="435px" align="center"></img>
+</p>
+
 
 ### Instalação dos Pacotes:
 Para a instalação dos pacotes, é necessário clonar este repositório em sua máquina. Na pasta raiz do projeto, rode os sequintes comandos:
