@@ -8,6 +8,17 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 - PUT: alteração de dados cadastrais (Update).
 - DELETE: exclusão de usuários.
 
+### Páginas e Layout
+
+<p align="center">
+  <img src="./main.png" width="550px" align="center"></img>
+</p>
+
+
+<p align="justify">
+  Página principal do projeto. Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF.
+</p>
+
 ### Organização de Pastas e Arquivos
 - src/: Pasta raiz do projeto.
 - src/assets: Pasta que contém o material gráfico utilizado, como logo e imagens (na pasta './img').
