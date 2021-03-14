@@ -11,7 +11,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 ### Páginas e Layout
 
 <p align="center">
-  <img src="./main.png" width="550px" align="center"></img>
+  <img src="main.PNG" width="550px" align="center"></img>
 </p>
 
 
