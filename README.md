@@ -109,6 +109,16 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   <img src="diagrams/card_toolbar_vue.png" width="435px" align="center"></img>
 </p>
 
+#### Delete User
+
+<p align="justify">
+  Botão do tipo ícone, é exibido no menu de ações de listagem de usuários. Recebe os dados do usuário como 'prop', fornecendo a função de exclusão do usuário. Conforme recebe a resposta da requisição que invoca, emite eventos ao componente pai, os quais permitem a impressão de mensgagens via 'Alert'.
+</p>
+
+<p align="center">
+  <img src="diagrams/edit_user_vue_component.png" width="435px" align="center"></img>
+</p>
+
 
 ### Instalação dos Pacotes:
 Para a instalação dos pacotes, é necessário clonar este repositório em sua máquina. Na pasta raiz do projeto, rode os sequintes comandos:
