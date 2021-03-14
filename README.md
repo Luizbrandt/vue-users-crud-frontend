@@ -30,7 +30,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   <img src="create-user-view.png" width="850px" align="center"></img>
 </p>
 
-#### Página de Cadastro - Inserção de Usuários
+#### Página de Edição - Update
 
 <p align="justify">
   Consiste numa dialog, janela modal, aberta com ocorrência de um evento. Neste caso, pressionar o botão de ação, na listagem de usuários. Como os valores de Nome e CPF são estáticos, somente o campo de e-mail pode ser atualizado, contendo os botões de ação de editar (Submissão do Formulário) e cancelas (fecha a dialog e retorna ao contexto de listagem de usuários da página principal).
@@ -38,6 +38,16 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 
 <p align="center">
   <img src="edit-user.PNG" width="850px" align="center"></img>
+</p>
+
+#### Página de Exclusão - Delete
+
+<p align="justify">
+  Assim como no caso do menu anterior, é formada por uma dialog, acionada com o pressionamento do botão de ação de exclusão da listagem principal. Exibe uma mensagem de confirmação, com os campos (apenas para leitura) dos atributos do usuário que se deseja excluir. Com a confirmação da ação, o usuário é excluído, recarregando a listagem com os dados atualizados.
+</p>
+
+<p align="center">
+  <img src="delete-user.PNG" width="850px" align="center"></img>
 </p>
 
 ### Organização de Pastas e Arquivos
