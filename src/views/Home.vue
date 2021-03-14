@@ -187,12 +187,12 @@ export default {
     eventHandler(responseValue){
       switch(responseValue){
 
-        case 'userDeleted':
+        case 'deletedSuccess':
           this.showMsg(this.messages.DELETE.SUCCESS, this.messages.TYPE.SUCCESS, this.messages.TIMEOUT);
           this.getUsers();
           break;
 
-        case 'deleteFailed':
+        case 'deletedFailed':
           this.showMsg(this.messages.DELETE.FAILED, this.messages.TYPE.ERROR, this.messages.TIMEOUT);
           break;
 

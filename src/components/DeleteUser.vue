@@ -166,13 +166,13 @@ export default{
             request_Entity.delete_user(this.endpoints.DEFAULT, object).then(() => {
                 
                 //Call event on parent component.
-                this.$emit('eventTrigger','deletesSuccess');
+                this.$emit('eventTrigger','deletedSuccess');
                 this.closeDeleteUser();
 
             }).catch(() => {
                 
                 //Call event on parent component.
-                this.$emit('eventTrigger','deletedError');
+                this.$emit('eventTrigger','deletedFailed');
                 this.closeDeleteUser();
 
             })
