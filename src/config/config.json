@@ -1,0 +1,103 @@
+{
+    "COLOR": {
+        "SALMON": "#FF6F5C",
+        "LIGHT": "#FFE2B4",
+        "GREEN": "#00C174",
+        "BLUE": "#57A4E1",
+        "ORANGE": "#FF8300",
+        "YELLOW": "#FFDC5C"
+    },
+
+    "TITLE": {
+
+        "TOPBAR": {
+            "MAIN": "Desafio Frontend",
+            "SUBTITLE": "CRUD Usuários"
+        },
+        
+        "CREATE": "Criação de Usuários",
+        "LIST": "Listagem de Usuários Cadastrados",
+        "SEARCH": "Busca de Usuários Cadastrados",
+        "UPDATE": "Alteração de Informações Cadastrais",
+        "DELETE": "Exclusão de Usuários",
+        "MAIN": "CRUD - Usuários"
+    },
+
+    "BUTTON": {
+        "CREATE": "Criar Usuário",
+        "LIST": "Listar Usuários",
+        "SEARCH": "Busca Usuários",
+        "UPDATE": "Alterar Usuários (Email)",
+        "DELETE": "Excluir Usuário"
+    },
+
+    "ACTION": {
+        "CANCEL": "Cancelar",
+        "DELETE": "Excluir",
+        "UPDATE": "Editar"
+    },
+
+    "TEXT": {
+        "DELETE": "Tem certeza que deseja excluir o usuário?"
+    },
+
+    "ICON": {
+        "CREATE": "mdi-account-plus",
+        "LIST": "mdi-account-group",
+        "SEARCH": "mdi-account-search",
+        "UPDATE": "mdi-account-edit",
+        "DELETE": "mdi-account-remove",
+        "CRUD": "mdi-account"
+    },
+
+    "PAGE": {
+        "CREATE": "create-user",
+        "LIST": "list-users",
+        "SEARCH": "search-user",
+        "UPDATE": "update-user",
+        "DELETE": "delete-user",
+        "HOMEPAGE": "home"
+    },
+
+    "MESSAGE": {
+
+        "TIMEOUT": 3000,
+
+        "TYPE": {
+            "INFO": "info",
+            "ERROR": "error",
+            "WARNING": "warning",
+            "SUCCESS": "success"
+        },
+        
+        "FORM_IMCOMPLETE": "Preencha o formulário corretamente!",
+
+        "CREATE":{
+            "SUCCESS": "Usuário criado com sucesso!",
+            "FAILED": "Erro na criação do usuário!",
+            "ALREADY": "Falha na criação: Email ou CPF já cadastrados!"
+        },
+
+        "LIST": {
+            "FAILED": "Falha no carregamento dos usuários!"
+        },
+
+        "EDIT": {
+            "SUCCESS": "Usuário atualizado com sucesso!",
+            "FAILED": "Erro na atualização do usuário!"
+        },
+
+        "DELETE": {
+            "SUCCESS": "Usuário excluído com sucesso!",
+            "FAILED": "Erro na exclusão do usuário!"
+        }
+    },
+
+    "ENDPOINT": {
+        "DEFAULT": "/api/users",
+        "NAME": "api/users/name",
+        "EMAIL": "/api/users/email",
+        "CPF": "api/users/cpf"
+    }
+
+}

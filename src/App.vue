@@ -1,32 +1,44 @@
+<!-- Main APP instance -->
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    
+    <!-- TopBar instance -->
+    <v-top-bar></v-top-bar>
+
+    <!-- Operand Logo -->
+    <v-container>
+      <v-row>
+        <v-col align="center">
+          <v-img :src="require('./assets/img/operand-logo.png')" height="50" width="180px"></v-img>
+        </v-col>
+      </v-row>
+    </v-container>
+
+    <!-- Vue Router instance -->
+    <router-view></router-view>
+  
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+//Topbar component import.
+import TopBar from './components/TopBar';
 
-#nav {
-  padding: 30px;
+export default{
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+  components: {
+    'v-top-bar': TopBar,
+  },
 
-    &.router-link-exact-active {
-      color: #42b983;
+  data(){
+    return{
+
     }
   }
 }
+
+</script>
+
+
+<style lang="scss">
 </style>
