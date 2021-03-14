@@ -28,7 +28,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 #### Página Principal
 
 <p align="justify">
-  Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF. Segue o layout de barra superior (estilo retirada da página do <a href="https://www.operand.com.br/">Operand</a>), logo da empresa, card principal centralizado contendo respectivamente, a busca de usuários cadastrados via campo de texto, listagem em formato de tabela dos usuários cadastrados (linha representa um usuário, coluna representa um atriuto), ações de Edição e Exclusão dos usuários cadastrados, e por fim, criação de novos usuários (Cadastro).
+  Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF. Segue o layout de barra superior (estilo retirada da página do <a href="https://www.operand.com.br/">Operand</a>), logo da empresa, card principal centralizado contendo respectivamente, a busca de usuários cadastrados via campo de texto, listagem em formato de tabela dos usuários cadastrados (linha representa um usuário, coluna representa um atriuto), ações de Edição e Exclusão dos usuários cadastrados, e por fim, criação de novos usuários (Cadastro). <strong>View:</strong> 'Home.vue'
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 #### Página de Cadastro - Inserção de Usuários
 
 <p align="justify">
-  Contém logo superior, card centralizado, com os campos para inserção dos dados do novo usuário (Nome, CPF e Email). Botões de ação - submissão e limpeza do formulário, bem como o redirecionamento para a página principal.
+  Contém logo superior, card centralizado, com os campos para inserção dos dados do novo usuário (Nome, CPF e Email). Botões de ação - submissão e limpeza do formulário, bem como o redirecionamento para a página principal. <strong>View:</strong> 'CreateUser.vue'
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 #### Página de Edição - Update
 
 <p align="justify">
-  Consiste numa dialog, janela modal, aberta com ocorrência de um evento. Neste caso, pressionar o botão de ação, na listagem de usuários. Como os valores de Nome e CPF são estáticos, somente o campo de e-mail pode ser atualizado, contendo os botões de ação de editar (Submissão do Formulário) e cancelas (fecha a dialog e retorna ao contexto de listagem de usuários da página principal).
+  Consiste numa dialog, janela modal, aberta com ocorrência de um evento. Neste caso, pressionar o botão de ação, na listagem de usuários. Como os valores de Nome e CPF são estáticos, somente o campo de e-mail pode ser atualizado, contendo os botões de ação de editar (Submissão do Formulário) e cancelas (fecha a dialog e retorna ao contexto de listagem de usuários da página principal). <strong>View:</strong> 'Home.vue'
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 #### Página de Exclusão - Delete
 
 <p align="justify">
-  Assim como no caso do menu anterior, é formada por uma dialog, acionada com o pressionamento do botão de ação de exclusão da listagem principal. Exibe uma mensagem de confirmação, com os campos (apenas para leitura) dos atributos do usuário que se deseja excluir. Com a confirmação da ação, o usuário é excluído, recarregando a listagem com os dados atualizados.
+  Assim como no caso do menu anterior, é formada por uma dialog, acionada com o pressionamento do botão de ação de exclusão da listagem principal. Exibe uma mensagem de confirmação, com os campos (apenas para leitura) dos atributos do usuário que se deseja excluir. Com a confirmação da ação, o usuário é excluído, recarregando a listagem com os dados atualizados. <strong>View:</strong> 'Home.vue'
 </p>
 
 <p align="center">
