@@ -48,7 +48,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 #### Página de Edição - Update
 
 <p align="justify">
-  Consiste numa dialog, janela modal, aberta com ocorrência de um evento. Neste caso, pressionar o botão de ação, na listagem de usuários. Como os valores de Nome e CPF são estáticos, somente o campo de e-mail pode ser atualizado, contendo os botões de ação de editar (Submissão do Formulário) e cancelas (fecha a dialog e retorna ao contexto de listagem de usuários da página principal). <strong>View:</strong> 'Home.vue'
+  Consiste numa dialog, janela modal, aberta com ocorrência de um evento. Neste caso, pressionar o botão de ação, na listagem de usuários. Como os valores de Nome e CPF são estáticos, somente o campo de e-mail pode ser atualizado, contendo os botões de ação de editar (Submissão do Formulário) e cancelar (fecha a dialog e retorna ao contexto de listagem de usuários da página principal). <strong>View:</strong> 'Home.vue'
 </p>
 
 <p align="center">
