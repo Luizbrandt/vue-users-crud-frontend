@@ -16,6 +16,10 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   A entidade 'Usuário' contém quatro atributos, sendo o atributo primário o '_id', do tipo UUID (Identificador Único Universal). Os outros atributos são: 'nome', 'cpf' e 'email', todos do tipo string.
 </p>
 
+<p align="center">
+  <img src="entity-user.png" width="150px" align="center"></img>
+</p>
+
 ### Páginas e Layout
 
 #### Página Principal
