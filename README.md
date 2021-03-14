@@ -8,11 +8,11 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 - PUT: alteração de dados cadastrais (Update).
 - DELETE: exclusão de usuários.
 
-###Organização de Pastas e Arquivos
-- src/
-- src/assets
-- src/components
-- src/plugins/vuetify.js
+### Organização de Pastas e Arquivos
+- src/: Pasta raiz do projeto.
+- src/assets: Pasta que contém o material gráfico utilizado, como logo e imagens (na pasta './img').
+- src/components: Pasta que contém os componentes do Vue.Js criados para o projeto.
+- src/plugins/vuetify.js: Arquivo de configuração do Vuetify, biblioteca de interface de usuário (UI) do vue, com estilos, templates e componentes personalizados.
 - src/router/index.js
 - src/services
 - src/views: Páginas secundárias do projeto, criadas com arquivos do Vue.js
