@@ -30,6 +30,15 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   <img src="create-user-view.png" width="850px" align="center"></img>
 </p>
 
+#### Página de Cadastro - Inserção de Usuários
+
+<p align="justify">
+  Consiste numa dialog, janela modal, aberta com ocorrência de um evento. Neste caso, pressionar o botão de ação, na listagem de usuários. Como os valores de Nome e CPF são estáticos, somente o campo de e-mail pode ser atualizado, contendo os botões de ação de editar (Submissão do Formulário) e cancelas (fecha a dialog e retorna ao contexto de listagem de usuários da página principal).
+</p>
+
+<p align="center">
+  <img src="edit-user.PNG" width="850px" align="center"></img>
+</p>
 
 ### Organização de Pastas e Arquivos
 - src/: Pasta raiz do projeto.
