@@ -1,24 +1,14 @@
-# vue-users-crud-frontend
+# Desafio Operand
+Como solicitado, foi desenvolvida uma aplicação (utilizando Vue.Js) que contempla o CRUD de usuários (Criação, Leitura/Consulta, Alteração e Exclusão).
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
+### Instalação dos Pacotes:
+Para a instalação dos pacotes, é necessário clonar este repositório em sua máquina. Na pasta raiz do projeto, rode os sequintes comandos:
+- Para instalação dos módulos do Node.Js:
 ```
-yarn serve
+npm i
 ```
-
-### Compiles and minifies for production
+- Para a inicialização da aplicação:
 ```
-yarn build
+npm run serve
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
