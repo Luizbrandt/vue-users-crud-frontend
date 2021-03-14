@@ -1,5 +1,8 @@
 # Desafio Operand
-Como solicitado, foi desenvolvida uma aplicação (utilizando Vue.Js) que contempla o CRUD de usuários (Criação, Leitura/Consulta, Alteração e Exclusão).
+Como solicitado, foi desenvolvida uma aplicação (utilizando Vue.Js) que contempla o CRUD de usuários (Criação, Leitura/Consulta, Alteração e Exclusão). 
+
+- Página para testes no Firebase: https://operand-challenge.web.app/
+- Repositório da API (backend): https://github.com/Luizbrandt/user-crud-simple-api
 
 ### Visão Geral do Projeto
 
