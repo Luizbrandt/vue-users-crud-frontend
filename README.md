@@ -84,6 +84,10 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
   Mensagem via alerta que muda de cor e ícone dependendo do seu tipo. Tipos disponíveis: 'error', 'sucess', 'info' e 'warning'. É utilizada após a conclusão de operações de consumo da API, para indicar ao usuário o status da requisição.
 </p>
 
+<p align="center">
+  <img src="diagrams/alert_component_back.png" width="435px" align="center"></img>
+</p>
+
 
 ### Instalação dos Pacotes:
 Para a instalação dos pacotes, é necessário clonar este repositório em sua máquina. Na pasta raiz do projeto, rode os sequintes comandos:
