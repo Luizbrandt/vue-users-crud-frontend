@@ -17,7 +17,7 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 </p>
 
 <p align="center">
-  <img src="entity-user.png" width="150px" align="center"></img>
+  <img src="entity-user-final.png" width="150px" align="center"></img>
 </p>
 
 ### Páginas e Layout
