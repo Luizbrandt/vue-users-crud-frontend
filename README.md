@@ -10,12 +10,24 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 
 ### Páginas e Layout
 
+#### Página Principal
+
 <p align="justify">
-  Página principal do projeto. Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF. Segue o layout de barra superior (estilo retirada da página do <a href="https://www.operand.com.br/">Operand</a>), logo da empresa, card principal centralizado contendo respectivamente, a busca de usuários cadastrados via campo de texto, listagem em formato de tabela dos usuários cadastrados (linha representa um usuário, coluna representa um atriuto), ações de Edição e Exclusão dos usuários cadastrados, e por fim, criação de novos usuários (Cadastro).
+  Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF. Segue o layout de barra superior (estilo retirada da página do <a href="https://www.operand.com.br/">Operand</a>), logo da empresa, card principal centralizado contendo respectivamente, a busca de usuários cadastrados via campo de texto, listagem em formato de tabela dos usuários cadastrados (linha representa um usuário, coluna representa um atriuto), ações de Edição e Exclusão dos usuários cadastrados, e por fim, criação de novos usuários (Cadastro).
 </p>
 
 <p align="center">
   <img src="main.PNG" width="850px" align="center"></img>
+</p>
+
+#### Página de Cadastro - Inserção de Usuários
+
+<p align="justify">
+  Contém logo superior, card centralizado, com os campos para inserção dos dados do novo usuário (Nome, CPF e Email). Botões de ação - submissão e limpeza do formulário, bem como o redirecionamento para a página principal.
+</p>
+
+<p align="center">
+  <img src="create-user-view.png" width="850px" align="center"></img>
 </p>
 
 
