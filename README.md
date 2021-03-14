@@ -10,14 +10,14 @@ Para o desenvolvimento deste projeto, uma API simples (sem autenticação) foi d
 
 ### Páginas e Layout
 
-<p align="center">
-  <img src="main.PNG" width="550px" align="center"></img>
-</p>
-
-
 <p align="justify">
-  Página principal do projeto. Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF.
+  Página principal do projeto. Contém a tabela de dados, listando os usuários cadastrados, com as informações: Nome, E-mail e CPF. Segue o layout de barra superior (estilo retirada da página do <a href="https://www.operand.com.br/">Operand</a>), logo da empresa, card principal centralizado contendo respectivamente, a busca de usuários cadastrados via campo de texto, listagem em formato de tabela dos usuários cadastrados (linha representa um usuário, coluna representa um atriuto), ações de Edição e Exclusão dos usuários cadastrados, e por fim, criação de novos usuários (Cadastro).
 </p>
+
+<p align="center">
+  <img src="main.PNG" width="850px" align="center"></img>
+</p>
+
 
 ### Organização de Pastas e Arquivos
 - src/: Pasta raiz do projeto.
